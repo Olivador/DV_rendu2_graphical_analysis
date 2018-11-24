@@ -1,32 +1,36 @@
-Rendu TP#2 Olivier IMBAUD 11317405 M2 Bioinformatique
+Rendu TP#2 
+Olivier IMBAUD
+11317405
+M2 Bioinformatique
 
 url : https://www.reddit.com/r/dataisbeautiful/comments/9laum8/global_temperature_for_last_150_years_oc/
 
 ###
 Cette visualisation représente l'évolution de la température globale de la Terre de 1864 à 2018.
 
-Elle s'adresse au grand public et ne cherche pas a être précise.
+Elle s'adresse au grand public et ne cherche pas à être précise.
 
 Elle se présente sous la forme d'un label "année" sous lequel se trouve une échelle graduée et colorée avec un curseur indiquant 
 la valeur courante.
 
-Cette échelle représente la différence de température par rapport à la valeur ( noté 0) de température préindustrielle (définie de 1851 à 1900).
+Cette échelle représente la différence de température par rapport à la valeur (noté 0) de température préindustrielle 
+(définie de 1851 à 1900).
 
-Cette échelle est graduée de -0.2 °C à 0.8 °C allant du bleu au rouge.
+Cette échelle est graduée de -0.2 °C à 0.8 °C, allant du bleu au rouge.
 
 Il s'agit d'une représentation animée :
 
 En fonction de l'année, de label de cette dernière se colore de la même couleur que celle correspondant à la valeur pointée par le curseur.
 
-A noter que la couleur pour une année donnée correspond a la valeur température moyenne des 15 années précédentes.
+A noter que la couleur pour une année donnée correspond à la valeur de température moyenne des 15 années précédentes.
 
 A noter également que plus la variation de température est importante et plus le curseur et les années défilent vites.
 
-En regardant ce graphique on distingue 3 phases
+En regardant ce graphique on distingue 4 phases
 
 1864-1930 : la température de la Terre stagne ou bien baisse légèrement selon les années.
 
-1930-1950 : la température augmente de façon signification pour attendre +0.4 °C par rapport à la température préindustrielle..
+1930-1950 : la température augmente de façon significative pour attendre +0.4 °C par rapport à la température préindustrielle..
 
 1950-1990 : la température stagne voir diminue très légèrement selon les années.
 
@@ -34,18 +38,18 @@ En regardant ce graphique on distingue 3 phases
 
 Points négatifs selon moi :
 
-- absence d'intéraction avec l'utilisateur pour revenir sur une année précise par exemple.
-- vitesse de défilement trop rapide pour visualiser correctement les différentes phases d'évolution de la température.
+- Absence d'intéraction avec l'utilisateur pour revenir sur une année précise par exemple.
+- Vitesse de défilement trop rapide pour visualiser correctement les différentes phases d'évolution de la température.
 - Absence de représentation de la Terre, des grands évènements industriels.
-- absence de légende pour préciser par exemple qu'une température donnée correspond à la moyenne des 15 années précedentes.
+- Absence de légende pour préciser par exemple qu'une température donnée correspond à la moyenne des 15 années précedentes.
 
 Points positifs selon moi :
 
 - Réprésentation simple efficace et synthétique.
-- Accélération du curseur des années bienvenue pour souligner visuellement les variations de couleurs.
+- Accélération du curseur et des années bienvenue pour souligner visuellement les variations de couleurs.
 
-Amélioration proposée :
+Améliorations proposées :
 
-- Rajouter une légende ainsi qu'une carte de la Terre dont les continent seraient colorés de la même couleur que le label année.
+- Rajouter une légende ainsi qu'une carte de la Terre dont les continents seraient colorés de la même couleur que le label année.
 - Permettre a l'utilisateur de faire varier lui même les années.
 ###
